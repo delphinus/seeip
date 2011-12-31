@@ -36,7 +36,7 @@ sub return_ip : Chained('root') PathPart('get') Args(1) {
     my ($self, $c, $type) = @_;
 
     $type = uc $type;
-    if (-1 == index 'JSON YAML XML IP', $type) {
+    if (-1 == index 'JSON YAML XML IP DYN', $type) {
         $c->res->body(status_message(HTTP_FORBIDDEN));
         $c->res->status(HTTP_FORBIDDEN);
         $c->detach;

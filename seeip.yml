@@ -6,3 +6,7 @@ View::XML:
   NoAttr: 1
   RootName: root
 
+View::TT:
+  TEMPLATE_EXTENSION: .tt
+  render_die: 1
+
