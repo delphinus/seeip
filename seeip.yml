@@ -6,7 +6,8 @@ View::XML:
   NoAttr: 1
   RootName: root
 
-View::TT:
+View::DYN:
+  INCLUDE_PATH: __path_to(root/tmpl)__
   TEMPLATE_EXTENSION: .tt
   render_die: 1
 
