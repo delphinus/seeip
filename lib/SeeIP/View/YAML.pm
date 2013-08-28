@@ -6,7 +6,7 @@ use YAML;
 
 sub process { my ($self, $c) = @_;
     $c->res->headers->content_type('text/yaml');
-    $c->res->output($self->test . Dump $c->stash);
+    $c->res->output(Dump $c->stash);
     1;
 }
 
