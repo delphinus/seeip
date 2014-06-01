@@ -15,3 +15,4 @@ MYMETA.yml
 
 pids
 local
+*.log
