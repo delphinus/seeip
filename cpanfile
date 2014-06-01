@@ -1,0 +1,13 @@
+requires 'Catalyst::Action::RenderView';
+requires 'Catalyst::Plugin::ConfigLoader';
+requires 'Catalyst::Plugin::Static::Simple';
+requires 'Catalyst::Runtime';
+requires 'Catalyst::View::JSON';
+requires 'Catalyst::View::TT';
+requires 'Config::General';
+requires 'Moose';
+requires 'Starman';
+requires 'Test::More';
+requires 'XML::Simple';
+requires 'YAML';
+requires 'namespace::autoclean';
