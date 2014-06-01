@@ -1,0 +1,298 @@
+2013/11/03-14:06:03 Starman::Server (type Net::Server::PreFork) starting! pid(4299)
+Binding to TCP port 18526 on host 127.0.0.1 with IPv4
+Setting gid to "500 500 10 23 500"
+Not inlining 'new' for SeeIP::View::DYN since it is not inheriting the default Moose::Object::new
+If you are certain you don't need to inline your constructor, specify inline_constructor => 0 in your call to SeeIP::View::DYN->meta->make_immutable
+Not inlining 'new' for SeeIP::View::DYN since it is not inheriting the default Moose::Object::new
+If you are certain you don't need to inline your constructor, specify inline_constructor => 0 in your call to SeeIP::View::DYN->meta->make_immutable
+Not inlining 'new' for SeeIP::View::DYN since it is not inheriting the default Moose::Object::new
+If you are certain you don't need to inline your constructor, specify inline_constructor => 0 in your call to SeeIP::View::DYN->meta->make_immutable
+[debug] Debug messages enabled
+[debug] Statistics enabled
+[debug] Loaded plugins:
+.----------------------------------------------------------------------------.
+| Catalyst::Plugin::ConfigLoader  0.32                                       |
+| Catalyst::Plugin::Unicode::Encoding  2.1                                   |
+'----------------------------------------------------------------------------'
+
+[debug] Loaded dispatcher "Catalyst::Dispatcher"
+[debug] Loaded engine "Catalyst::Engine"
+[debug] Found home "/Library/WebServer/Applications/seeip"
+[debug] Loaded Config "/Library/WebServer/Applications/seeip/seeip.yml"
+[debug] Loaded components:
+.-----------------------------------------------------------------+----------.
+| Class                                                           | Type     |
++-----------------------------------------------------------------+----------+
+| SeeIP::Controller::Return                                       | instance |
+| SeeIP::Controller::Root                                         | instance |
+| SeeIP::View::DYN                                                | instance |
+| SeeIP::View::IP                                                 | instance |
+| SeeIP::View::JSON                                               | instance |
+| SeeIP::View::XML                                                | instance |
+| SeeIP::View::YAML                                               | instance |
+'-----------------------------------------------------------------+----------'
+
+[debug] Loaded Private actions:
+.----------------------+--------------------------------------+--------------.
+| Private              | Class                                | Method       |
++----------------------+--------------------------------------+--------------+
+| /index               | SeeIP::Controller::Root              | index        |
+| /end                 | SeeIP::Controller::Root              | end          |
+| /default             | SeeIP::Controller::Root              | default      |
+| /return/root         | SeeIP::Controller::Return            | root         |
+| /return/return_ip    | SeeIP::Controller::Return            | return_ip    |
+| /return/default_ret- | SeeIP::Controller::Return            | default_ret- |
+| urn                  |                                      | urn          |
+'----------------------+--------------------------------------+--------------'
+
+[debug] Loaded Path actions:
+.-------------------------------------+--------------------------------------.
+| Path                                | Private                              |
++-------------------------------------+--------------------------------------+
+| /default/...                        | /default                             |
+'-------------------------------------+--------------------------------------'
+
+[debug] Loaded Chained actions:
+.-------------------------------------+--------------------------------------.
+| Path Spec                           | Private                              |
++-------------------------------------+--------------------------------------+
+| /                                   | /index                               |
+| /get                                | /return/root (0)                     |
+|                                     | => /return/default_return            |
+| /get/*                              | /return/root (0)                     |
+|                                     | => /return/return_ip                 |
+'-------------------------------------+--------------------------------------'
+
+[info] SeeIP powered by Catalyst 5.90042
+[debug] Debug messages enabled
+[debug] Statistics enabled
+[debug] Loaded plugins:
+.----------------------------------------------------------------------------.
+| Catalyst::Plugin::ConfigLoader  0.32                                       |
+| Catalyst::Plugin::Unicode::Encoding  2.1                                   |
+'----------------------------------------------------------------------------'
+
+[debug] Loaded dispatcher "Catalyst::Dispatcher"
+[debug] Loaded engine "Catalyst::Engine"
+[debug] Found home "/Library/WebServer/Applications/seeip"
+[debug] Loaded Config "/Library/WebServer/Applications/seeip/seeip.yml"
+[debug] Loaded components:
+.-----------------------------------------------------------------+----------.
+| Class                                                           | Type     |
++-----------------------------------------------------------------+----------+
+| SeeIP::Controller::Return                                       | instance |
+| SeeIP::Controller::Root                                         | instance |
+| SeeIP::View::DYN                                                | instance |
+| SeeIP::View::IP                                                 | instance |
+| SeeIP::View::JSON                                               | instance |
+| SeeIP::View::XML                                                | instance |
+| SeeIP::View::YAML                                               | instance |
+'-----------------------------------------------------------------+----------'
+
+[debug] Loaded Private actions:
+.----------------------+--------------------------------------+--------------.
+| Private              | Class                                | Method       |
++----------------------+--------------------------------------+--------------+
+| /default             | SeeIP::Controller::Root              | default      |
+| /end                 | SeeIP::Controller::Root              | end          |
+| /index               | SeeIP::Controller::Root              | index        |
+| /return/root         | SeeIP::Controller::Return            | root         |
+| /return/default_ret- | SeeIP::Controller::Return            | default_ret- |
+| urn                  |                                      | urn          |
+| /return/return_ip    | SeeIP::Controller::Return            | return_ip    |
+'----------------------+--------------------------------------+--------------'
+
+[debug] Loaded Path actions:
+.-------------------------------------+--------------------------------------.
+| Path                                | Private                              |
++-------------------------------------+--------------------------------------+
+| /default/...                        | /default                             |
+'-------------------------------------+--------------------------------------'
+
+[debug] Loaded Chained actions:
+.-------------------------------------+--------------------------------------.
+| Path Spec                           | Private                              |
++-------------------------------------+--------------------------------------+
+| /                                   | /index                               |
+| /get                                | /return/root (0)                     |
+|                                     | => /return/default_return            |
+| /get/*                              | /return/root (0)                     |
+|                                     | => /return/return_ip                 |
+'-------------------------------------+--------------------------------------'
+
+[info] SeeIP powered by Catalyst 5.90042
+Not inlining 'new' for SeeIP::View::DYN since it is not inheriting the default Moose::Object::new
+If you are certain you don't need to inline your constructor, specify inline_constructor => 0 in your call to SeeIP::View::DYN->meta->make_immutable
+Not inlining 'new' for SeeIP::View::DYN since it is not inheriting the default Moose::Object::new
+If you are certain you don't need to inline your constructor, specify inline_constructor => 0 in your call to SeeIP::View::DYN->meta->make_immutable
+[debug] Debug messages enabled
+[debug] Statistics enabled
+[debug] Loaded plugins:
+.----------------------------------------------------------------------------.
+| Catalyst::Plugin::ConfigLoader  0.32                                       |
+| Catalyst::Plugin::Unicode::Encoding  2.1                                   |
+'----------------------------------------------------------------------------'
+
+[debug] Loaded dispatcher "Catalyst::Dispatcher"
+[debug] Loaded engine "Catalyst::Engine"
+[debug] Found home "/Library/WebServer/Applications/seeip"
+[debug] Loaded Config "/Library/WebServer/Applications/seeip/seeip.yml"
+[debug] Loaded components:
+.-----------------------------------------------------------------+----------.
+| Class                                                           | Type     |
++-----------------------------------------------------------------+----------+
+| SeeIP::Controller::Return                                       | instance |
+| SeeIP::Controller::Root                                         | instance |
+| SeeIP::View::DYN                                                | instance |
+| SeeIP::View::IP                                                 | instance |
+| SeeIP::View::JSON                                               | instance |
+| SeeIP::View::XML                                                | instance |
+| SeeIP::View::YAML                                               | instance |
+'-----------------------------------------------------------------+----------'
+
+[debug] Loaded Private actions:
+.----------------------+--------------------------------------+--------------.
+| Private              | Class                                | Method       |
++----------------------+--------------------------------------+--------------+
+| /index               | SeeIP::Controller::Root              | index        |
+| /default             | SeeIP::Controller::Root              | default      |
+| /end                 | SeeIP::Controller::Root              | end          |
+| /return/root         | SeeIP::Controller::Return            | root         |
+| /return/default_ret- | SeeIP::Controller::Return            | default_ret- |
+| urn                  |                                      | urn          |
+| /return/return_ip    | SeeIP::Controller::Return            | return_ip    |
+'----------------------+--------------------------------------+--------------'
+
+[debug] Loaded Path actions:
+.-------------------------------------+--------------------------------------.
+| Path                                | Private                              |
++-------------------------------------+--------------------------------------+
+| /default/...                        | /default                             |
+'-------------------------------------+--------------------------------------'
+
+[debug] Loaded Chained actions:
+.-------------------------------------+--------------------------------------.
+| Path Spec                           | Private                              |
++-------------------------------------+--------------------------------------+
+| /                                   | /index                               |
+| /get                                | /return/root (0)                     |
+|                                     | => /return/default_return            |
+| /get/*                              | /return/root (0)                     |
+|                                     | => /return/return_ip                 |
+'-------------------------------------+--------------------------------------'
+
+[info] SeeIP powered by Catalyst 5.90042
+[debug] Debug messages enabled
+[debug] Statistics enabled
+[debug] Loaded plugins:
+.----------------------------------------------------------------------------.
+| Catalyst::Plugin::ConfigLoader  0.32                                       |
+| Catalyst::Plugin::Unicode::Encoding  2.1                                   |
+'----------------------------------------------------------------------------'
+
+[debug] Loaded dispatcher "Catalyst::Dispatcher"
+[debug] Loaded engine "Catalyst::Engine"
+[debug] Found home "/Library/WebServer/Applications/seeip"
+[debug] Loaded Config "/Library/WebServer/Applications/seeip/seeip.yml"
+[debug] Loaded components:
+.-----------------------------------------------------------------+----------.
+| Class                                                           | Type     |
++-----------------------------------------------------------------+----------+
+| SeeIP::Controller::Return                                       | instance |
+| SeeIP::Controller::Root                                         | instance |
+| SeeIP::View::DYN                                                | instance |
+| SeeIP::View::IP                                                 | instance |
+| SeeIP::View::JSON                                               | instance |
+| SeeIP::View::XML                                                | instance |
+| SeeIP::View::YAML                                               | instance |
+'-----------------------------------------------------------------+----------'
+
+[debug] Loaded Private actions:
+.----------------------+--------------------------------------+--------------.
+| Private              | Class                                | Method       |
++----------------------+--------------------------------------+--------------+
+| /index               | SeeIP::Controller::Root              | index        |
+| /default             | SeeIP::Controller::Root              | default      |
+| /end                 | SeeIP::Controller::Root              | end          |
+| /return/root         | SeeIP::Controller::Return            | root         |
+| /return/return_ip    | SeeIP::Controller::Return            | return_ip    |
+| /return/default_ret- | SeeIP::Controller::Return            | default_ret- |
+| urn                  |                                      | urn          |
+'----------------------+--------------------------------------+--------------'
+
+[debug] Loaded Path actions:
+.-------------------------------------+--------------------------------------.
+| Path                                | Private                              |
++-------------------------------------+--------------------------------------+
+| /default/...                        | /default                             |
+'-------------------------------------+--------------------------------------'
+
+[debug] Loaded Chained actions:
+.-------------------------------------+--------------------------------------.
+| Path Spec                           | Private                              |
++-------------------------------------+--------------------------------------+
+| /                                   | /index                               |
+| /get                                | /return/root (0)                     |
+|                                     | => /return/default_return            |
+| /get/*                              | /return/root (0)                     |
+|                                     | => /return/return_ip                 |
+'-------------------------------------+--------------------------------------'
+
+[info] SeeIP powered by Catalyst 5.90042
+[debug] Debug messages enabled
+[debug] Statistics enabled
+[debug] Loaded plugins:
+.----------------------------------------------------------------------------.
+| Catalyst::Plugin::ConfigLoader  0.32                                       |
+| Catalyst::Plugin::Unicode::Encoding  2.1                                   |
+'----------------------------------------------------------------------------'
+
+[debug] Loaded dispatcher "Catalyst::Dispatcher"
+[debug] Loaded engine "Catalyst::Engine"
+[debug] Found home "/Library/WebServer/Applications/seeip"
+[debug] Loaded Config "/Library/WebServer/Applications/seeip/seeip.yml"
+[debug] Loaded components:
+.-----------------------------------------------------------------+----------.
+| Class                                                           | Type     |
++-----------------------------------------------------------------+----------+
+| SeeIP::Controller::Return                                       | instance |
+| SeeIP::Controller::Root                                         | instance |
+| SeeIP::View::DYN                                                | instance |
+| SeeIP::View::IP                                                 | instance |
+| SeeIP::View::JSON                                               | instance |
+| SeeIP::View::XML                                                | instance |
+| SeeIP::View::YAML                                               | instance |
+'-----------------------------------------------------------------+----------'
+
+[debug] Loaded Private actions:
+.----------------------+--------------------------------------+--------------.
+| Private              | Class                                | Method       |
++----------------------+--------------------------------------+--------------+
+| /index               | SeeIP::Controller::Root              | index        |
+| /end                 | SeeIP::Controller::Root              | end          |
+| /default             | SeeIP::Controller::Root              | default      |
+| /return/root         | SeeIP::Controller::Return            | root         |
+| /return/default_ret- | SeeIP::Controller::Return            | default_ret- |
+| urn                  |                                      | urn          |
+| /return/return_ip    | SeeIP::Controller::Return            | return_ip    |
+'----------------------+--------------------------------------+--------------'
+
+[debug] Loaded Path actions:
+.-------------------------------------+--------------------------------------.
+| Path                                | Private                              |
++-------------------------------------+--------------------------------------+
+| /default/...                        | /default                             |
+'-------------------------------------+--------------------------------------'
+
+[debug] Loaded Chained actions:
+.-------------------------------------+--------------------------------------.
+| Path Spec                           | Private                              |
++-------------------------------------+--------------------------------------+
+| /                                   | /index                               |
+| /get                                | /return/root (0)                     |
+|                                     | => /return/default_return            |
+| /get/*                              | /return/root (0)                     |
+|                                     | => /return/return_ip                 |
+'-------------------------------------+--------------------------------------'
+
+[info] SeeIP powered by Catalyst 5.90042
