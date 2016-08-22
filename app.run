@@ -6,6 +6,6 @@ CARTON=/usr/local/opt/plenv/shims/carton
 STARMAN=./local/bin/starman
 
 cd $DIR
-$CARTON exec -- $STARMAN -l 127.0.0.1:18526 --pid $PID $PSGI
+exec $CARTON exec -- $STARMAN -l 127.0.0.1:18526 --pid $PID $PSGI
 
 # vim:se ft=sh:
